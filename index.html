@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test RevoU</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    <h1>Hello World!</h1>
-    <h2>Ini Daffa</h2>
+    <p class="text-3xl pb-4 text-blue-500 font-bold pl-6 pt-6 bg-yellow-100">Hello World!</p>
+    <hr>
+    <p>Halo, nama saya <br>Daffa,</p>
+    <!-- ini komentar untuk baris ini pakai CTRL / -->
+    <h1>Ini Heading 1</h1>
+    <h2>Ini Heading 1</h2>
+    <h3>Ini Heading 1</h3>
+    <h4>Ini Heading 1</h4>
+    <h5>Ini Heading 1</h5>
+    <h6>Ini Heading 1</h6>
+
+    <p>Teks ini ada <b>bold</b> nya, <i>italic</i> nya,</p>
+    <p>Ini tulisan yang ke <sub>bawah</sub> dan ke <sup>atas</sup></p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt perferendis adipisci nemo culpa earum vel
+        alias debitis, natus, illo error molestias fugit maiores ratione exercitationem tempora eveniet animi voluptate?
+    </p>
+    <h1>Bullt Poin</h1>
+    <ul>
+        <!-- unorder list -->
+        <li>Pisang <p>Pisang adalah buah-buahan berwarna kuning</p>
+        </li>
+        <li>Mangga</li>
+        <li>Apel</li>
+        <!-- list item -->
+        <li>Jeruk</li>
+    </ul>
+    <h1>Urutan Angka</h1>
+    <p>Cara menjalankan HTML pakai vscode:</p>
+    <ol type="1">
+        <!-- order list -->
+        <li>Buka VSCodenya</li>
+        <li>Open folder project yang akan dikerjakan</li>
+        <li>Buat file index.html</li>
+        <li>Diawali dengan html:5</li>
+        <li>Jalankan dengan live perview extantion dari microsoft</li>
+    </ol>
+    <h1>Tabel</h1>
+    <p>Cara membuat tabel</p>
+    <!-- membuat tabel, tabel heading, tabel row,tabel head,tabel data -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alfred</td>
+                <td>111111</td>
+                <td>indonesia</td>
+            </tr>
+            <tr>
+                <td>Budi</td>
+                <td>222222</td>
+                <td>Malaysia</td>
+            </tr>
+            <tr>
+                <td>ansan</td>
+                <td>333333</td>
+                <td>Brunei</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Menampilkan Gambar</h1>
+    <img src="./RevoU.png" alt="Logo RevoU"
+    width="100px" object-fit="cover">
+    <img src="https://id.wikipedia.org/wiki/Berkas:Honda_Logo.svg" alt="">
+    
+    <h1>Link</h1>
+    <p>ini adalah link ke <a href="https://www.revou.co/">RevoU</a>
+    </p>
+    <a href="./second.html">Second HTML</a>
+    <a href="#lorem">Go to Lorem</a>
+
+    <h1>Form Contact Us</h1>
+    <form>
+        <label for="">Nama</label>
+        <input type="text" name="nama" id placeholder="Tulis nama anda">
+        <br>
+        <label for="">Umur</label>
+        <input type="number" name="umur" id="umur" min="0"max="120" placeholder="tulis umur anda">
+        <br>
+        <label for="">Jenis Kelamin</label>
+        <input type="radio" value="male" name="Laki-laki"> Laki-laki
+        <input type="radio" value="female" name="Perempuan"> Perempuan
+        <br>
+        <label for="">Makanan Favorit</label>
+        <select name="" id="">
+            <option value="None">None</option>
+            <option value="nasi-goreng">Nasigoreng</option>
+            <option value="soto">Soto</option>
+            <option value="sate">Sate</option>
+            <option value="bakso">Bakso</option>
+        </select>
+        <br>
+        <label for="">Comment</label>
+        <br>
+        <textarea name="" id="" rows="5" cols="30" placeholder="Tulis komentar anda disini"></textarea>
+        <br>
+        <input type="checkbox">Saya setuju dengan syarat dan ketentuan
+        <br>
+        <input type="submit" value="Kirim">
+        <button type="submit">Send</button>
+    </form>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt veniam reprehenderit vitae exercitationem
+        expedita quas. Eos iure aliquid, voluptates eaque sit et ab unde ex, quis omnis nisi, sapiente blanditiis.</p>
+
 </body>
+
 </html>
